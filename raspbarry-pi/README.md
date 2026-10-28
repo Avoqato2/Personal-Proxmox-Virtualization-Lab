@@ -32,7 +32,7 @@ The following essential local domains are configured in Pi-hole to route traffic
 | `arcane.lan` | `192.168.0.X`| Arcane Web UI (LXC 102 apps) |
 | `xxxxx-NAS.lan` | `192.168.0.X`| Domain for a NAS (LXC 103 NAS) |
 > [!NOTE]
-> The domain for the Vault must have a valid and genuine certificate. This can be verified using a reverse DNS lookup. A free option for registering a domain is available at [https://www.duckdns.org](https://www.duckdns.org/)
+> The domain for the Vault must have a valid and genuine certificate. This can be verified using a DNS chellange. A free option for registering a domain is available at [https://www.duckdns.org](https://www.duckdns.org/)
 
 
 ## 3. Docker Installation
